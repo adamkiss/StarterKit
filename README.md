@@ -1,4 +1,4 @@
-# StarterKit v0.0
+# StarterKit v0.2
 
 ## Description
 
@@ -20,7 +20,7 @@ Here at Bonetics, we like smarter work. We also like frameworks, having great de
 1. Copy StarterKit into your project
 1. Use & profit
 
-### Compiling with CodeKit
+### Compiling with CodeKit v1.3.5+
 
 1. Copy StarterKit into your project
 1. Add project to CodeKit
@@ -33,3 +33,6 @@ Here at Bonetics, we like smarter work. We also like frameworks, having great de
 
 * [Bourbon](https://github.com/thoughtbot/bourbon)
 * [Normalize](https://github.com/necolas/normalize.css)
+* [Bourbon Neat](https://github.com/thoughtbot/neat)
+
+*Note: Parts are mentioned in the order they are loading in*
