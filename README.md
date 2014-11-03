@@ -1,42 +1,32 @@
-# StarterKit v0.2
+# StarterKit
 
-## Description
+My very own setup for most of front-end/designy stuff I work on. I use mostly the same stuff over & over — save for big jumps like when I went from Less to Sass — but when I change something in specific projects, I don't save it anywhere 'general'.
 
-Our very own HTML/CSS starter kit/framework, with default HTML/HAML and some nice CSS defaults.
+And then, when I start new project, I end up searching through all of the recent projects/hacks… "I knew I fixed this somewhere".
 
-## Another one?
+This is my latest try to have some central repo with up-to-date stuff I use.
 
-Here at Bonetics, we like smarter work. We also like frameworks, having great deal of funcionality you do often. However, our defaults seem to be really different from standard defaults found in Bootstrap, or Foundation. We also tend to need greater need of how variable things need to be. So, here it is: predefined parts for things that ought to be done good once with minor changes, and helpful helpers (yay!) for things that ought to be site-specific.
+## Information
 
-## How to use
+Latest version: 03.11.2014
+License: [WTFPL](http://wtfpl.org/)
+Can you use it?: If it helps you…
 
-### Sinatra/Rails app
+## The story
 
-1. Add following gems:
+We started this repository with [Matej](http://hrescak.com/) some time in 2012, because of the very same reasons why it exists right now, but then it kind of died, because we moved on to other languages and other jobs as well.
 
-   ```
-    gem "bourbon"
-   ```
-1. Copy StarterKit into your project
-1. Use & profit
+I find myself in position of needing it again.
 
-### Compiling with CodeKit v1.3.5+
+## Notes
 
-1. Copy StarterKit into your project
-1. Add project to CodeKit
-1. Set your project to use Bourbon
-1. Compile & profit
+These notes are mostly for myself, so when I get to this project weeks, months or even years later down the line, I know what is here.
 
-*Note: using this starter kit leads to profit anyway.*
+### Assets
 
-## Parts needed/used/ripped from
+Whole assets directory set up with Gulp.js. Requirements:
 
-* [Bourbon](https://github.com/thoughtbot/bourbon)
-* [Normalize](https://github.com/necolas/normalize.css)
-* [Bourbon Neat](https://github.com/thoughtbot/neat)
-
-*Note: Parts are mentioned in the order they are loading in*
-
-## Preparing update.
-
-And testing ZSH changes
+- Node.js
+- [Gulp.js](http://gulpjs.com/)
+- Partials/modules:
+  + libsass/sassc (install with Brew)
