@@ -36,3 +36,7 @@ Here at Bonetics, we like smarter work. We also like frameworks, having great de
 * [Bourbon Neat](https://github.com/thoughtbot/neat)
 
 *Note: Parts are mentioned in the order they are loading in*
+
+## Preparing update.
+
+And testing ZSH changes
