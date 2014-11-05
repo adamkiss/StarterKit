@@ -1,0 +1,13 @@
+// Libs to include before everything (at the start of the file)
+
+// normalize
+@import "normalize/normalize";
+// cherrypick bourbon+neat
+@import "bourbon/addons/clearfix";
+@import "neat/functions/new-breakpoint";
+@import "neat/grid/media";
+
+// do this: (it's awesome)
+* {
+  box-sizing: border-box;
+}
