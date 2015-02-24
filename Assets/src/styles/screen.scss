@@ -1,5 +1,31 @@
-@import "lib/libs";
+// Import Libraries
+//------------------------------------------------
+@import "libs/normalize/normalize";
+@import "libs/media/include-media";
+@import "libs/media/include-mq";
+@import "libs/clearfix";
 
+// Use CSS sizing that makes sense
+//------------------------------------------------
+* {
+  box-sizing: border-box;
+}
+
+// Font Definitions
+//------------------------------------------------
+
+// Color/var Definitions
+//------------------------------------------------
+
+// Media Query variables (remove if unused)
+//------------------------------------------------
+
+
+// Your partials come here (remove if simple)
+//------------------------------------------------
+
+// Your code here
+//------------------------------------------------
 body {
-  conten: "hello world";
+  content: "hello world";
 }

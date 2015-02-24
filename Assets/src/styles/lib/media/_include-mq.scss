@@ -1,0 +1,13 @@
+//
+// @Include MQ
+// Extension of include-media for screen only media queries
+//
+// @author: Adam Kiss <adamkiss.com>
+
+@mixin mq($conditions...) {
+
+  @include media( join("screen", $conditions)... ) {
+    @content;
+  }
+
+}
